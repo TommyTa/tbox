@@ -1,2 +1,5 @@
-# tbox
-muc 充电仓项目
+##Compile Command
+```
+make T=tbox clean
+make T=tbox all -j8
+```

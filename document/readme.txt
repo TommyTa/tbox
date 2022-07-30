@@ -1,0 +1,60 @@
+app
+    app_ageing
+        app_ageing.c
+        Makefile
+    app_button
+        app_button.c
+        Makefile
+    app_led
+        app_led.c
+        Makefile
+    fota
+    power
+    sensor
+build
+    build.sh
+    configs
+        hero
+        mermaid
+        roc
+    include
+        config
+    menuconfig
+        Kconfig
+driver
+    battery
+    button
+    led
+    sensor
+include
+    app
+    bsp
+    driver
+    framework
+out
+    hero
+        factory
+    mermaid
+platform
+    bsp
+        N32G4FR
+        STM32F411
+    chip
+        STM32F411
+    frameworks
+        app_manager
+        commu
+        compress_log
+        device_manager
+        fota
+        fs
+    OS
+        freeRTOS
+project
+    hero
+        bootloader
+        comm
+        main
+        target.mk
+scripts
+    build.mk
